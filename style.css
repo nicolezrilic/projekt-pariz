@@ -2,5 +2,44 @@ html { box-sizing: border-box; }
 *, ::before, ::after { box-sizing: inherit; }
 
 body {
+    font-family: "Source Sans 3", serif;
+    font-style: normal;
 
 }
+
+.main-image {
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+    width: 300px;
+    height: 300px;
+}
+
+h1 {
+    font-family: Playfair Display; serif;
+    font-size: 48px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 24px;
+    color: #dc6aa1;
+    padding: 48px;
+}
+
+.author {
+    color: #dc6aa1;
+    text-align: center;
+}
+
+
+/* .playfair-display-<uniquifier> {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  } -->
