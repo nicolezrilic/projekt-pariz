@@ -4,7 +4,9 @@ html { box-sizing: border-box; }
 body {
     font-family: "Source Sans 3", serif;
     font-style: normal;
-
+    font-size: 20px;
+    line-height: 1.4;
+    background-color: #cde4f9;
 }
 
 .main-image {
@@ -15,10 +17,12 @@ body {
     height: 300px;
 }
 
-
+h1, h2, h3 {
+     font-family: "Playfair Display", serif;
+     line-height: 1.2;
+}
 
 h1 {
-    font-family: Playfair Display; serif;
     font-size: 48px;
     text-align: center;
 }
@@ -30,12 +34,68 @@ h2 {
 h3 {
     font-size: 24px;
     color: #dc6aa1;
-    padding: 48px;
+    padding-top: 48px;
 }
 
 .author {
     color: #dc6aa1;
+}
+
+.perex {
+    font-size: 24px;
+    color: #808080;
+    padding-top: 20px;
+}
+
+.author,
+.perex {
     text-align: center;
+}
+
+section {
+    background-color: #ffffff;
+    max-width: 900px;
+    padding: 30px 50px;
+    margin: 20px auto;
+    border-radius: 12px;
+}
+
+.eiffel {
+    float: right;
+    margin: 0 0 20px 20px;
+    border-radius: 8px;
+    width: 300px;
+    height: 225px;
+}
+
+.oblouk {
+    float: left;
+    margin: 0 20px 20px 0;
+    border-radius: 8px;
+    width: 300px;
+    height: 225px;
+}
+
+.louvre {
+    float: right;
+    margin: 0 0 20px 20px;
+    border-radius: 8px;
+    width: 300px;
+    height: 225px;
+}
+
+.montmartre {
+    float: left;
+    margin: 0 20px 20px 0;
+    border-radius: 8px;
+    width: 300px;
+    height: 225px;
+}
+
+.zahrady {
+    margin: 20px 0 20px 0;
+    border-radius: 8px;
+    width: 100%;
 }
 
 
